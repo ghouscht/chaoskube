@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Chart.Name }}
+  name: {{ include "chaoskube.fullname" . }}
   namespace: {{ .Release.Namespace }}
   labels:
     {{- include "chaoskube.labels" . | nindent 4 }}

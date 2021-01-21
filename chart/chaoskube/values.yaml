@@ -38,7 +38,8 @@ chaoskube:
 
 # serviceAccount can be used to customize the service account which will be crated and used by chaoskube
 serviceAccount:
-  name: "chaoskube"
+  create: true
+  name: ""
   annotations: {}
 
 # podAnnotations can be used to add additional annotations to the pod
