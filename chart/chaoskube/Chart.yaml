@@ -9,9 +9,9 @@ keywords:
   - chaos-monkey
   - chaos-engineering
 maintainers:
-  # TODO: remove Thomas and add linki
+  - name: Martin Linkhorst
+    url: https://github.com/linki
   - name: Thomas Gosteli
-    email: thomas.gosteli@protonmail.com
     url: https://github.com/ghouscht
 version: 0.1.0
 appVersion: 0.21.0
